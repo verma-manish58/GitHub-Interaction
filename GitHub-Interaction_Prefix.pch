@@ -1,0 +1,34 @@
+//
+//  GitHub-Interaction_Prefix.pch
+//  GitHub-Interaction
+//
+//  Created by Manish Verma on 31/03/16.
+//  Copyright © 2016 Manish Verma. All rights reserved.
+//
+
+#ifndef GitHub_Interaction_Prefix_pch
+#define GitHub_Interaction_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UAGithubEngine/UAGithubEngine.h>
+
+#import "RepoClosedIssuesDataModels.h"
+#import "RepoOpenIssuesDataModels.h"
+#import "RepoIssuesCommentsDataModels.h"
+
+#import "UserRepositoryDataModels.h"
+
+#import "AppDelegate.h"
+
+
+
+#import "DSActivityView.h"
+#import "DejalActivityView.h"
+
+#import "ServerCommunicator.h"
+#import "Reachability.h"
+
+
+#endif /* GitHub_Interaction_Prefix_pch */
